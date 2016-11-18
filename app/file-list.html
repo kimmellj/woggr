@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+	<meta charset="UTF-8">
+	<title>Index of /</title>
+</head>
+
+<body>
+	<h1>Index of /</h1>
+	<hr size="1" noshade="noshade" />
+	<table width="100%" cellspacing="0" cellpadding="5" align="center">
+		<tr>
+			<td align="left">
+				<font size="+1"><strong>Filename</strong></font>
+			</td>
+			<td align="right">
+				<font size="+1"><strong>Size</strong></font>
+			</td>
+			<td align="right">
+				<font size="+1"><strong>Last Modified</strong></font>
+			</td>
+		</tr>
+		{{#files}}
+			<tr>
+				<td align="left">&nbsp;&nbsp;
+					<a href="{{fileURL}}"><tt>{{fileName}}</tt></a>
+				</td>
+				<td align="right">&nbsp;</td>
+				<td align="right"><tt>{{date}}</tt></td>
+			</tr>
+		{{/files}}
+  </table>
+</body>
+</html>
