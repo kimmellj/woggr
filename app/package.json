@@ -1,0 +1,21 @@
+{
+	"name": "woggr",
+	"productName": "Woggr",
+	"description": "A utility to watch updates to logs on across HTTP",
+	"version": "0.1.0",
+	"author": "James Kimmell <kimmellj@gmail.com>",
+	"copyright": "© 2016, James Kimmell",
+	"homepage": "http://jkimmell.com",
+	"license": "MIT",
+	"main": "background.js",
+	"dependencies": {
+		"fs-jetpack": "^0.9.0",
+		"jquery": "^3.1.1",
+		"react": "^15.3.2",
+		"react-dom": "^15.3.2",
+		"react-router": "^2.8.1",
+		"request": "^2.75.0",
+		"loglevel": "^1.4.1",
+		"url-parser": "0.0.1"
+	}
+}
